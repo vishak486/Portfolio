@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./style.css">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Ga+Maamli&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Playwrite+IT+Moderna:wght@100..400&family=Wittgenstein:ital,wght@0,400..900;1,400..900&display=swap"
+        rel="stylesheet">
+    <!-- animate cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!-- aos cdn link -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="container">
+        <!-- navbar -->
+        <nav>
+            <!-- logo -->
+            <img class="logo" src="https://cdn.pixabay.com/photo/2019/12/25/09/10/girl-mascot-4718135_1280.png" alt="">
+            <!-- links -->
+            <ul>
+                <li class="list-items"><a class="links" href="#home">HOME</a></li>
+                <li class="list-items"><a class="links" href="#about">ABOUT</a></li>
+                <li class="list-items"><a class="links" href="#skill">SKILLS</a></li>
+                <li class="list-items"><a class="links" href="#contact">CONTACT</a></li>
+            </ul>
+        </nav>
+        <!-- home -->
+        <section id="home">
+            <div class="home-content">
+                <h1 class="animate__animated animate__heartBeat" id="username">I'm Vishak<span id="lname"> Vijayan</span></h1>
+                <p id="user-details">this is my Official Portfolio website to describes all
+                    <br>
+                    details and work experiance in web development
+                </p>
+                <a id="download" href="">DOWNLOAD CV</a>
+            </div>
+            <div class="home-img">
+                <!-- shape -->
+                <img id="shape" class="group1" src="./images/icon-removebg-preview.png" alt="shape">
+                <!-- person -->
+                <img id="girl" class="group1" src="./images/person-removebg-preview.png" alt="person">
+            </div>
+
+        </section>
+        <!-- about -->
+        <section id="about">
+            <div class="section-head">
+                <h2 class="main-head">About Me</h2>
+                <span class="sub-head">Introduction</span>
+            </div>
+            <div class="about-body">
+                <div data-aos="flip-left"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="2000" class="about-img">
+                    <img src="https://st.depositphotos.com/1741969/5055/i/450/depositphotos_50557025-stock-photo-corkboard-with-phrase-about-me.jpg"
+                        alt="No image" class="img1">
+                </div>
+                <div class="about-content">
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi labore officiis repudiandae
+                        aliquam quis doloremque aspernatur perferendis aut perspiciatis, quaerat hic ducimus quibusdam
+                        facere quidem obcaecati, soluta esse cum ea?</p>
+                    <div class="informations">
+                        <div class="info-box">
+                            <i class="fa-solid fa-user"></i>
+                            <span>Vishak Vijayan</span>
+                        </div>
+                        <div class="info-box">
+                            <i class="fa-solid fa-phone"></i>
+                            <span>7558056067</span>
+                        </div>
+                        <div class="info-box">
+                            <i class="fa-solid fa-envelope"></i>
+                            <span>vishakvijayan2002@gmail.com</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- skill -->
+        <section id="skill">
+            <div class="section-head">
+                <h2 class="main-head">Skills</h2>
+                <span class="sub-head">My Skills</span>
+            </div>
+            <div class="skill-contents">
+                <div  class="progress-bars">
+                    <!-- html bars -->
+                    <div  class="bars">
+                        <h3 class="bar-head">HTML</h3>
+                        <span class="bar-percent">90%</span>
+                        <div class="base-bar"></div>
+                        <div data-aos="zoom-in-right data-aos-duration="3000"" class="base-bar html-bar"></div>
+                    </div>
+                    <!-- css bars -->
+                    <div class="bars">
+                        <h3 class="bar-head">CSS</h3>
+                        <span class="bar-percent">80%</span>
+                        <div class="base-bar"></div>
+                        <div data-aos="zoom-in-right data-aos-duration="3000"" class="base-bar css-bar"></div>
+                    </div>
+                    <!-- js bars -->
+                    <div class="bars">
+                        <h3 class="bar-head">JS</h3>
+                        <span class="bar-percent">75%</span>
+                        <div class="base-bar"></div>
+                        <div data-aos="zoom-in-right data-aos-duration="3000"" class="base-bar js-bar"></div>
+                    </div>
+                    <!-- React bars -->
+                    <div class="bars">
+                        <h3 class="bar-head">REACT</h3>
+                        <span class="bar-percent">79%</span>
+                        <div class="base-bar"></div>
+                        <div data-aos="zoom-in-right data-aos-duration="3000"" class="base-bar react-bar"></div>
+                    </div>
+                </div>
+                <div class="skill-img">
+                    <img class="myskill"
+                        src="https://s3.ap-south-1.amazonaws.com/production-mentormind/blogs/cover_images/000/000/008/original/GEN-Palmer-Skills-Atrophy-1290x860-1.jpg?1638801295"
+                        alt="">
+                </div>
+            </div>
+        </section>
+        <!-- contact -->
+        <section id="contact">
+            <div class="section-head">
+                <h2 class="main-head">Contacts</h2>
+                <span class="sub-head">My Contacts</span>
+            </div>
+            <div class="icon-collections">
+                <!-- linkdin -->
+                <div class="icon">
+                    <a target="_blank" href="https://www.linkedin.com/in/vishak-vijayan-4575a128b/"><i
+                            class="fa-brands fa-linkedin-in brands"></i></a>
+                </div>
+                <!-- github -->
+                <div class="icon">
+                    <a target="_blank" href="https://www.linkedin.com/in/vishak-vijayan-4575a128b/"><i
+                            class="fa-brands fa-github brands"></i></a>
+                </div>
+                <!-- twitter -->
+                <div class="icon">
+                    <a target="_blank" href="https://www.linkedin.com/in/vishak-vijayan-4575a128b/"><i
+                            class="fa-brands fa-twitter brands"></i></a>
+                </div>
+                <!-- facebook -->
+                <div class="icon">
+                    <a target="_blank" href="https://www.linkedin.com/in/vishak-vijayan-4575a128b/"><i
+                            class="fa-brands fa-facebook brands"></i></a>
+                </div>
+                <!-- instagram -->
+                <div class="icon">
+                    <a target="_blank" href="https://www.linkedin.com/in/vishak-vijayan-4575a128b/"><i
+                            class="fa-brands fa-instagram brands"></i></a>
+                </div>
+                <!-- mail -->
+                <div class="icon">
+                    <a target="_blank" href="https://www.linkedin.com/in/vishak-vijayan-4575a128b/"><i
+                            class="fa-regular fa-envelope brands"></i></a>
+                </div>
+            </div>
+        </section>
+        <!-- footer -->
+        <footer id="footer">
+            <p id="copyright">&copy;My portfolio website-july 2024,All rights are reserved to &reg; Vishak Vijayan</p>
+            <div class="icon up-arrow">
+                <a href=""><i class="fa-solid fa-angle-up brands"></i></a>
+            </div>
+        </footer>
+    </div>
+</body>
+<!-- aos js cdn  -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+</html>
